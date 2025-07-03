@@ -1,0 +1,37 @@
+🚀 NASA NEO Tracking & Insights
+This project is a comprehensive data analysis and visualization tool for monitoring Near-Earth Objects (NEOs) using NASA's NeoWs public API. It extracts, stores, and presents asteroid data through an interactive Streamlit dashboard, backed by a MySQL database.
+
+📌 Objective
+The main goal of this project is to provide insights into the asteroids and comets that pass close to Earth. By leveraging live NASA data, we track parameters like speed, size, orbit, and potential hazard level — helping make space data accessible and informative for all users.
+
+📊 Features
+🌍 Live data from NASA NEO API
+
+📂 Structured storage using MySQL
+
+🐍 Python-based ETL pipeline
+
+📈 Interactive Streamlit dashboard
+
+🔍 Custom SQL query execution
+
+📉 Visual analysis of NEO approach trends, distances, and sizes
+
+🧰 Tech Stack
+Python – For API calls, data processing, and Streamlit frontend
+
+MySQL – Backend database to store asteroid data
+
+Streamlit – UI for querying and visualizing insights
+
+Pandas & Requests – Data handling and API communication
+
+⚙️ How It Works
+Fetch Data: Uses NASA NeoWs API to collect asteroid data.
+
+Process Data: Extracts key fields like name, size, date, velocity, and orbit.
+
+Store in MySQL: Data is inserted into relational tables (asteroids, close_approach_data, orbital_data).
+
+Display in Streamlit: Provides filters, visualizations, and query support for interactive exploration.
+
